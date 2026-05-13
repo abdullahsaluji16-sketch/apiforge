@@ -18,6 +18,7 @@ class Auth extends CI_Controller {
     }
 
     public function do_login() {
+		echo "in";exit;
         $email    = $this->input->post('email');
         $password = $this->input->post('password');
         $user     = $this->User_model->get_by_email($email);
