@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: apiforge
-    runtime: docker
-    dockerfilePath: ./Dockerfile
